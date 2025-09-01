@@ -11,4 +11,5 @@
     "post_uninstall": [
         "if(Test-Path \"$(appdir winscp)\\$version\\WinSCP.chs\"){Remove-Item \"$(appdir winscp)\\$version\\WinSCP.chs\"}"
     ]
+
 }
